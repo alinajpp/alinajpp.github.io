@@ -1,3 +1,41 @@
 p {
-  color:DeepPink;
+  color: pink;
+}
+
+h1 {color: aquamarine;
+  font-family: verdana;
+}
+
+p {
+  color: pink;
+}
+
+#id1 {
+  color: turquoise;
+  font-family: Comic Sans MS;
+}
+
+#id2 {
+    color:magenta;
+    font-family: Trebuchet MS;
+}
+
+#id3 {
+    color:deepskyblue;
+    font-family: Segoe UI;
+}
+
+.bluev {
+  color: #ED009C;
+  font-family: verdana;
+}
+
+.center {
+  text-align: center;
+  color: salmon;
+}
+
+.bluev p {
+  color: #FF8080;
+  font-family: verdana;
 }
