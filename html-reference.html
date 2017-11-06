@@ -139,14 +139,80 @@
       <h5>&lt;h5&gt;</h5>
       <h6>&lt;h6&gt;</h6>
       <p>The &lt;hr&gt; tag can be used to break headings, and are the lines seen in between each section on this webpage. The tags used are, respectively, &lt;h1&gt;, which is placed at the beginning of a heading, and &lt;/h1&gt;,which is placed at the end of a heading.</p>
+      <a href="https://www.w3schools.com/html/html_headings.asp">W3Schools Page</a>
     <hr>
       <h1>Paragraphs</h1>
       <p>Paragraphs are what they are; a plain block of words that a user reads to get into detail. No matter the amount of extreneous spaces and breaks put in a paragraph, the source code will be displayed the same way and those breaks ignored. The only way to make a break in a paragraph is with the &lt;br&gt; tag--the HTML equivalent of the enter bar. Tags used are the &lt;p&gt; tag at the beginning and the &lt;/p&gt; tag at the end. This block of words was created using the paragraph tags.</p>
+      <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3Schools Page</a>
     <hr>
       <h1>Comments</h1>
       <p>Comments are used to place notifications and reminders in HTML without seeing them on the display. The tags used are &lt;!-- at the beginning and --&gt; at the end. There could be comments inserted here and you wouldn't be able to see them.<!--Are there any? Yes there are. ;)--></p>
+      <a href="https://www.w3schools.com/html/html_comments.asp">W3 Schools Page</a>
     <hr>
       <h1>Links</h1>
-      <p>Links are created simply by omg wth it's 12. in the am. i need to go take a shower. brb</p>
+      <p>Links are created simply by inserting the link between the tags &lt;a href=" and "&gt;. Afterwards, the text representing the link is written out, and the tag &lt;/a&gt; added at the end. See table above for examples; the "W3Schools Page" below is a link. With a local link, the entire url does not have to be added, only the defined ending. With this Github page, inserting &lt;a href="index.html"&gt;Home&lt;/a&gt; will take you straight to the homepage.</p>
+      <a href="index.html">Home</a>
+      <a href="https://www.w3schools.com/html/html_links.asp">W3Schools Page</a>
+    <hr>
+      <h1>Images</h1>
+      <p>Images are defined with the tag &lt;img src="<i>url</i>"&gt;, with the image address inserted in between. In the case that an image will not load, the <i>alt</i> attribute must be applied with the alternate text. The width and height of the image can be customized. Gifs also work with the image attribute, and the gif address must be inserted the same way.<br>Inserting &lt;img src= "http://www.slate.com/content/dam/slate/articles/news_and_politics/the_slate_quiz/authorPortraits/meryl_gif_oscars.gif.CROP.original-original.gif" alt="Meryl Streep"&gt; will show this:</p>
+      <p style="text-align: center;"><img src="http://www.slate.com/content/dam/slate/articles/news_and_politics/the_slate_quiz/authorPortraits/meryl_gif_oscars.gif.CROP.original-original.gif" alt="Meryl Streep"></p>
+      <br>
+      <a href="https://www.w3schools.com/html/html_images.asp">W3Schools Page</a>
+    <hr>
+      <h1>Lists</h1>
+      <p>To make a list, whether with numbers of bullet points, the tags &lt;ul&gt; (unordered list) and &lt;ol&gt; (ordered list) can be used. The tags &lt;li&gt; are used to define each item in the list.</p>
+      <ul>
+        <li>This is</li>
+        <li>an unordered</li>
+        <li>list</li>
+      </ul>
+      <ol>
+        <li>This is</li>
+        <li>an ordered</li>
+        <li>list</li>
+      </ol>
+      <p>Description lists can also be created using the &lt;dl&gt;,&lt;dt&gt;, and &lt;dd&gt; tags.</p>
+      <a href="https://www.w3schools.com/html/html_lists.asp">W3Schools Page</a>
+    <hr>
+      <h1>Tables</h1>
+      <p>An HTML table is defined with the &lt;table&gt; tag. Each row is defined with &lt;tr&gt; and a header is defined with &lt;th&gt;. The data in each row is preceeded with &lt;td&gt;.<br>With the code:<br>
+      &lt;table&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;th&gt;First Name&lt;/th&gt;<br>
+      &lt;th&gt;Second Name&lt;/th&gt;<br>
+      &lt;/tr&gt;<br>
+      &lt;tr&gt;<br>
+      &lt;td&gt;Alina&lt;/td&gt;<br>
+      &lt;td&gt;Jitpraphai&lt;/td&gt;<br>
+      &lt;/tr&gt;
+      &lt;td&gt;Carolyn&lt;/td&gt;<br>
+      &lt;td&gt;Cui&lt;/td&gt;<br>
+      The following table will be created:
+      </p>
+      <table>
+        <tr>
+          <th>First Name</th>
+          <th>Second Name</th>
+        </tr>
+        <tr>
+          <td>Alina</td>
+          <td>Jitpraphai</td>
+        </tr>
+        <tr>
+          <td>Carolyn</td>
+          <td>Cui</td>
+        </tr>
+      </table>
+      <p>To see a better defined table, look at the top of this page.</p>
+      <a href="https://www.w3schools.com/html/html_tables.asp">W3Schools Page</a>
+    <hr>
+      <h1>Blocks</h1>
+      <p>Block elements start on new lines and take up the full width available. Though there are many block-level elements (<a href="https://www.w3schools.com/html/html_blocks.asp">see here for full list</a>), the grouping tags available are the &lt;div&gt; and &lt;span&gt; tags.<br>These elements can contain HTML elements in order to style or class them. Using the &lt;div&gt; tag to color a heading and paragraph at the same time will result with this:</p>
+      <div style="color: turquoise; text-align: center;">
+        <h2>Heading</h2>
+        <p>Paragraph</p>
+      </div>
+      <a href="https://www.w3schools.com/html/html_blocks.asp">W3Schools Page</a>
   </body>
 </html>
