@@ -1,0 +1,30 @@
+.mystyle {
+  color: deeppink;
+}
+
+.mybstyle {
+  border: 2px dotted mediumvioletred;
+}
+
+.mybgstyle {
+  background-color: turquoise;
+}
+
+.mybgistyle {
+  color: white;
+  text-align: center;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/d8/35/87/d83587f001e254318da83993a3b896a7.gif");
+  height: 245px;
+}
+
+.mytstyle {
+  text-align: center;
+}
+
+.myfontfamily {
+  font-family: Georgia, Sans-Serif;
+}
+
+.myfontstyle {
+  font: bold 15px tahoma, sans-serif;
+}
