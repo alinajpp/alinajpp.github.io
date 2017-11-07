@@ -6,12 +6,12 @@
     <title>References Page</title>
     <link href="reference.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body style="font-family: Verdana">
     
     <h1 id="top">HTML References Page</h1>
     <hr>
     
-    <table>
+    <table class="navtable">
       <tr>
         <th>Name</th>
         <th>Start Tag</th>
@@ -48,59 +48,59 @@
         <td>The page title will show up at the tab bar.</td>
       </tr>
       <tr>
-        <td><a href="#headings">Headings</a></td>
+        <td><a href="#headings" style="text-decoration: none; color: black; font-weight: bold">Headings</a></td>
         <td>&lt;h1&gt;</td>
         <td>&lt;/h1&gt;</td>
         <td>&lt;h1&gt;This is a heading&lt;/h1&gt;</td>
         <td><h1>This is a heading</h1></td>
       </tr>
       <tr>
-        <td><a href="#paragraphs">Paragraphs</a></td>
+        <td><a href="#paragraphs" style="text-decoration: none; color: black; font-weight: bold">Paragraphs</a></td>
         <td>&lt;p&gt;</td>
         <td>&lt;/p&gt;</td>
         <td>&lt;p&gt;This is a paragraph&lt;/p&gt;</td>
         <td><p>This is a paragraph</p></td>
       </tr>
       <tr>
-        <td>Breaks</td>
+        <td><a href="#break" style="text-decoration: none; color: black; font-weight: bold">Breaks</a></td>
         <td>&lt;br&gt;</td>
         <td>None required</td>
         <td>This paragraph&lt;br&gt;will have a break in it.</td>
         <td>This paragraph<br>will have a break in it.</td>
       </tr>
       <tr>
-        <td>Lines</td>
+        <td><a href="#lines" style="text-decoration: none; color: black; font-weight: bold">Lines</a></td>
         <td>&lt;hr&gt;</td>
         <td>None required</td>
         <td>There will be a line beneath this paragraph.&lt;br&gt;&lt;hr&gt;</td>
         <td>There will be a line beneath this paragraph.<br><hr></td>
       </tr>
       <tr>
-        <td><a href="#comments">Comments</a></td>
+        <td><a href="#comments" style="text-decoration: none; color: black; font-weight: bold">Comments</a></td>
         <td>&lt;!--</td>
         <td>--&gt;</td>
         <td>&lt;!--Insert comments here--&gt; There are comments here but you can't see them.</td>
         <td title="John Cena"><!--Insert comments here-->There are comments here but you can't see them.</td>
       </tr>
       <tr>
-        <td><a href="#links">Links</a></td>
+        <td><a href="#links" style="text-decoration: none; color: black; font-weight: bold">Links</a></td>
         <td>&lt;a href=""&gt;</td>
         <td>&lt;/a&gt;</td>
         <td>&lt;a href="insertlinkhere.com"&gt;Click here for link&lt;/a&gt;</td>
         <td><a href="http://ilooklikebarackobama.com/">Click here for link</a></td>
       </tr>
       <tr>
-        <td><a href="#images">Images</a></td>
+        <td><a href="#images" style="text-decoration: none; color: black; font-weight: bold">Images</a></td>
         <td>&lt;img src=</td>
         <td>&gt;</td>
         <td>&lt;img src="insertimagelinkherealsogifsworktoo.com"&gt;</td>
         <td><img src="http://38.media.tumblr.com/beedf6c35f4215820c4b902a3f4b1f28/tumblr_nviwz26ezk1s1ekw8o5_250.gif"></td>
       </tr>
       <tr>
-        <td><a href="#lists">Lists</a></td>
+        <td><a href="#lists" style="text-decoration: none; color: black; font-weight: bold">Lists</a></td>
         <td>&lt;ul&gt;<br>&lt;li&gt;</td>
         <td>  &lt;/li&gt;<br>&lt;/ul&gt;<br></td>
-        <td>&lt;ul&gt;<br>&lt;li&gt;First item&lt;/li&gt;<br>&lt;li&gt;Second item&lt;/li&gt;<br>&lt;/ul&gt;</td>
+        <td><pre>&lt;ul&gt;<br>&lt;li&gt;First item&lt;/li&gt;<br>&lt;li&gt;Second item&lt;/li&gt;<br>&lt;/ul&gt;</pre></td>
         <td></ul>
           <li>First item</li>
           <li>Second item</li>
@@ -108,27 +108,27 @@
         </td>
       </tr>
       <tr>
-        <td><a href="#tables">Tables</a></td>
+        <td><a href="#tables" style="text-decoration: none; color: black; font-weight: bold">Tables</a></td>
         <td>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;th&gt;<br>&lt;td&gt;</td>
         <td>&lt;/table&gt;<br>&lt;/tr&gt;<br>&lt;/th&gt;<br>&lt;/td&gt;</td>
-        <td>&lt;table&gt;
+        <td><pre>&lt;table&gt;
         <br>&lt;tr&gt;
         <br>&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Start Tag&lt;/th&gt;
-        <br>&lt;td&gt;Headings&lt;/td&gt;&lt;td&gt;&lt;h1&gt;&lt;/td&gt;</td>
+        <br>&lt;td&gt;Headings&lt;/td&gt;&lt;td&gt;&lt;h1&gt;&lt;/td&gt;</pre></td>
         <td>Look at this table.</td>
       </tr>
       <tr>
-        <td><a href="#blocks">Blocks</a></td>
+        <td><a href="#blocks" style="text-decoration: none; color: black; font-weight: bold">Blocks</a></td>
         <td>&lt;div&gt;</td>
         <td>&lt;/div&gt;</td>
-        <td>&lt;div style="color:pink"&gt;<br>&lt;h1&gt;This is a heading&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph&lt;/p&gt;<br>&lt;/div&gt;</td>
-        <td><div style="color: pink">
+        <td><pre>&lt;div style="color:turquoise"&gt;<br>&lt;h1&gt;This is a heading&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph&lt;/p&gt;<br>&lt;/div&gt;</pre></td>
+        <td><div style="color: turquoise">
           <h1>This is a heading</h1>
           <p>This is a paragraph</p>
         </div></td>
       </tr>
     </table>
-    
+    <p id="lines">This is a line &darr;</p>
     <hr>
       <h1 id="headings">Headings</h1>
       <p>Headings are used to index the structure and content of web pages. Users skim a page by the headings, so it's important to show what they will be seeing before they see it. Tags can range from &lt;h1&gt; to &lt;h6&gt;, in descending order in size.</p>
@@ -142,7 +142,8 @@
       <a href="https://www.w3schools.com/html/html_headings.asp">W3Schools Page</a>
     <hr>
       <h1 id="paragraphs">Paragraphs</h1>
-      <p>Paragraphs are what they are; a plain block of words that a user reads to get into detail. No matter the amount of extreneous spaces and breaks put in a paragraph, the source code will be displayed the same way and those breaks ignored. The only way to make a break in a paragraph is with the &lt;br&gt; tag--the HTML equivalent of the enter bar. Tags used are the &lt;p&gt; tag at the beginning and the &lt;/p&gt; tag at the end. This block of words was created using the paragraph tags.</p>
+      <p>Paragraphs are what they are; a plain block of words that a user reads to get into detail. No matter the amount of extreneous spaces and breaks put in a paragraph, the source code will be displayed the same way and those breaks ignored.</p> 
+      <p id="break">The only way to make a break in a paragraph is with the &lt;br&gt; tag--the HTML equivalent of the enter bar. Tags used are the &lt;p&gt; tag at the beginning and the &lt;/p&gt; tag at the end. This block of words was created using the paragraph tags.</p>
       <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3Schools Page</a>
     <hr>
       <h1 id="comments">Comments</h1>
@@ -155,7 +156,7 @@
       <a href="https://www.w3schools.com/html/html_links.asp">W3Schools Page</a>
     <hr>
       <h1 id="images">Images</h1>
-      <p>Images are defined with the tag &lt;img src="<i>url</i>"&gt;, with the image address inserted in between. In the case that an image will not load, the <i>alt</i> attribute must be applied with the alternate text. The width and height of the image can be customized. Gifs also work with the image attribute, and the gif address must be inserted the same way.<br>Inserting &lt;img src= "http://www.slate.com/content/dam/slate/articles/news_and_politics/the_slate_quiz/authorPortraits/meryl_gif_oscars.gif.CROP.original-original.gif" alt="Meryl Streep"&gt; will show this:</p>
+      <p>Images are defined with the tag &lt;img src="<i>url</i>"&gt;, with the image address inserted in between. In the case that an image will not load, the <i>alt</i> attribute must be applied with the alternate text. The width and height of the image can be customized. Gifs also work with the image attribute, and the gif address must be inserted the same way.<br>Inserting <pre>&lt;img src= "http://www.slate.com/content/dam/slate/articles/news_and_politics/the_slate_quiz/authorPortraits<br>/meryl_gif_oscars.gif.CROP.original-original.gif" alt="Meryl Streep"&gt;</pre> will show this:</p>
       <p style="text-align: center;"><img src="http://www.slate.com/content/dam/slate/articles/news_and_politics/the_slate_quiz/authorPortraits/meryl_gif_oscars.gif.CROP.original-original.gif" alt="Meryl Streep"></p>
       <br>
       <a href="https://www.w3schools.com/html/html_images.asp">W3Schools Page</a>
@@ -177,7 +178,7 @@
     <hr>
       <h1 id="tables">Tables</h1>
       <p>An HTML table is defined with the &lt;table&gt; tag. Each row is defined with &lt;tr&gt; and a header is defined with &lt;th&gt;. The data in each row is preceeded with &lt;td&gt;.<br>With the code:<br>
-      &lt;table&gt;<br>
+      <pre>&lt;table&gt;<br>
       &lt;tr&gt;<br>
       &lt;th&gt;First Name&lt;/th&gt;<br>
       &lt;th&gt;Second Name&lt;/th&gt;<br>
@@ -187,7 +188,7 @@
       &lt;td&gt;Jitpraphai&lt;/td&gt;<br>
       &lt;/tr&gt;
       &lt;td&gt;Carolyn&lt;/td&gt;<br>
-      &lt;td&gt;Cui&lt;/td&gt;<br>
+      &lt;td&gt;Cui&lt;/td&gt;<br></pre>
       The following table will be created:
       </p>
       <table>
@@ -214,8 +215,8 @@
         <p>Paragraph</p>
       </div>
       <a href="https://www.w3schools.com/html/html_blocks.asp">W3Schools Page</a>
-<hr>
-<a href="#top">Back to top</a>
-<p style="text-align: center;"><img src="http://images.mentalfloss.com/sites/default/files/styles/insert_main_wide_image/public/andpeggy.gif" alt="and Peggy"></p>
+    <hr>
+    <a href="#top">Back to top</a>
+    <p class="andpeggy">Made by Alina Jitpraphai</p>
   </body>
 </html>
