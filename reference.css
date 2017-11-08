@@ -27,8 +27,17 @@
     color: white;
 }
 
+#headings, #paragraphs, #comments, #links, #images, #lists, #tables, #blocks {
+  background-color: #ff8599;
+  color: white;
+  font-size: 275%;
+}
+
 .andpeggy {
   color: white;
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 25px;
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/d8/35/87/d83587f001e254318da83993a3b896a7.gif");
   height: 245px;
 }
