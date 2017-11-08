@@ -1,6 +1,6 @@
 #top {
   text-align: center;
-  font-size: 400%;;
+  font-size: 500%;;
   color: #ff8599;
   font-family: Courier;
 }
@@ -30,7 +30,21 @@
 #headings, #paragraphs, #comments, #links, #images, #lists, #tables, #blocks {
   background-color: #ff8599;
   color: white;
-  font-size: 275%;
+  font-size: 300%;
+  padding: 6px;
+}
+
+#headingsx, #tablesx, #blocksx, #imgsx, #listsx {
+  background-color: #f2f2f2;
+  padding: 6px;
+}
+
+table, th, td {
+  text-align: left;
+  width: 500px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
 }
 
 .andpeggy {
