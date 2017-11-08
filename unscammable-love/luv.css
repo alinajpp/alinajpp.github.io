@@ -42,3 +42,10 @@ li a:hover:not(.active) {
 #ycsl {
   font-size: 200%;
 }
+
+#characters {
+  background-color: #ff8599;
+  padding: 6px;
+  text-align: center;
+  color: white;
+}
