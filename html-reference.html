@@ -23,7 +23,7 @@
         <td>HTML</td>
         <td>&lt;html&gt;</td>
         <td>&lt;/html&gt;</td>
-        <td><pre>&lt;head&gt;<br><i>body</i><br>&lt;/head&gt;</pre></td>
+        <td><pre>&lt;html&gt;<br><i>body</i><br>&lt;/html&gt;</pre></td>
         <td>The body will go here.</td>
       </tr>
       <tr>
@@ -132,12 +132,14 @@
     
       <h1 id="headings">Headings</h1>
       <p>Headings are used to index the structure and content of web pages. Users skim a page by the headings, so it's important to show what they will be seeing before they see it. Tags can range from &lt;h1&gt; to &lt;h6&gt;, in descending order in size.</p>
-      <h1>&lt;h1&gt;</h1>
-      <h2>&lt;h2&gt;</h2>
-      <h3>&lt;h3&gt;</h3>
-      <h4>&lt;h4&gt;</h4>
-      <h5>&lt;h5&gt;</h5>
-      <h6>&lt;h6&gt;</h6>
+      <div id="headingsx">
+        <h1>&lt;h1&gt;</h1>
+        <h2>&lt;h2&gt;</h2>
+        <h3>&lt;h3&gt;</h3>
+        <h4>&lt;h4&gt;</h4>
+        <h5>&lt;h5&gt;</h5>
+        <h6>&lt;h6&gt;</h6>
+      </div>
       <p>The &lt;hr&gt; tag can be used to break headings, and are the lines seen in between each section on this webpage. The tags used are, respectively, &lt;h1&gt;, which is placed at the beginning of a heading, and &lt;/h1&gt;,which is placed at the end of a heading.</p>
       <a href="https://www.w3schools.com/html/html_headings.asp">W3Schools Page</a>
     
@@ -156,50 +158,57 @@
       <a href="https://www.w3schools.com/html/html_links.asp">W3Schools Page</a>
     
       <h1 id="images">Images</h1>
-      <p>Images are defined with the tag &lt;img src="<i>url</i>"&gt;, with the image address inserted in between. In the case that an image will not load, the <i>alt</i> attribute must be applied with the alternate text. The width and height of the image can be customized. Gifs also work with the image attribute, and the gif address must be inserted the same way.<br>Inserting <pre>&lt;img src= "http://www.slate.com/content/dam/slate/articles/news_and_politics/the_slate_quiz/authorPortraits<br>/meryl_gif_oscars.gif.CROP.original-original.gif" alt="Meryl Streep"&gt;</pre> will show this:</p>
+      <p>Images are defined with the tag &lt;img src="<i>url</i>"&gt;, with the image address inserted in between. In the case that an image will not load, the <i>alt</i> attribute must be applied with the alternate text. The width and height of the image can be customized. Gifs also work with the image attribute, and the gif address must be inserted the same way.<br>Inserting </p>
+      <div id="imgsx"><pre>&lt;img src= "http://www.slate.com/content/dam/slate/articles/news_and_politics/the_slate_quiz/authorPortraits<br>/meryl_gif_oscars.gif.CROP.original-original.gif" alt="Meryl Streep"&gt;</pre></div> 
+      <p>will show this:</p>
       <p style="text-align: center;"><img src="http://www.slate.com/content/dam/slate/articles/news_and_politics/the_slate_quiz/authorPortraits/meryl_gif_oscars.gif.CROP.original-original.gif" alt="Meryl Streep"></p>
       <br>
       <a href="https://www.w3schools.com/html/html_images.asp">W3Schools Page</a>
     
       <h1 id="lists">Lists</h1>
       <p>To make a list, whether with numbers of bullet points, the tags &lt;ul&gt; (unordered list) and &lt;ol&gt; (ordered list) can be used. The tags &lt;li&gt; are used to define each item in the list.</p>
-      <ul>
-        <li>This is</li>
-        <li>an unordered</li>
-        <li>list</li>
-      </ul>
-      <ol>
-        <li>This is</li>
-        <li>an ordered</li>
-        <li>list</li>
-      </ol>
+      <div id="listsx">
+        <ul>
+          <li>This is</li>
+          <li>an unordered</li>
+          <li>list</li>
+        </ul>
+        <ol>
+          <li>This is</li>
+          <li>an ordered</li>
+          <li>list</li>
+        </ol>
+      </div>
       <p>Description lists can also be created using the &lt;dl&gt;,&lt;dt&gt;, and &lt;dd&gt; tags.</p>
       <a href="https://www.w3schools.com/html/html_lists.asp">W3Schools Page</a>
     
       <h1 id="tables">Tables</h1>
-      <p>An HTML table is defined with the &lt;table&gt; tag. Each row is defined with &lt;tr&gt; and a header is defined with &lt;th&gt;. The data in each row is preceeded with &lt;td&gt;.<br>With the code:<br><pre>&lt;table&gt;<br>
-      &lt;tr&gt;<br>
-      &lt;th&gt;First Name&lt;/th&gt;<br>
-      &lt;th&gt;Second Name&lt;/th&gt;<br>
-      &lt;/tr&gt;<br>
-      &lt;tr&gt;<br>
-      &lt;td&gt;Alina&lt;/td&gt;<br>
-      &lt;td&gt;Jitpraphai&lt;/td&gt;<br>
-      &lt;/tr&gt;
-      &lt;td&gt;Carolyn&lt;/td&gt;<br>
-      &lt;td&gt;Cui&lt;/td&gt;<br></pre>
-      The following table will be created:
+      <p>An HTML table is defined with the &lt;table&gt; tag. Each row is defined with &lt;tr&gt; and a header is defined with &lt;th&gt;. The data in each row is preceeded with &lt;td&gt;.<br>With the code:<br></p>
+      <div id="tablesx">
+        <pre>&lt;table&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;th&gt;First Name&lt;/th&gt;<br>
+        &lt;th&gt;Second Name&lt;/th&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td&gt;Alina&lt;/td&gt;<br>
+        &lt;td&gt;Jitpraphai&lt;/td&gt;<br>
+        &lt;/tr&gt;
+        &lt;td&gt;Carolyn&lt;/td&gt;<br>
+        &lt;td&gt;Cui&lt;/td&gt;<br></pre>
+      </div>
+      <p>The following table will be created:
       </p>
-      <table>
-        <tr>
+      <table id="tablestable">
+        <tr id="tablestwoble">
           <th>First Name</th>
           <th>Second Name</th>
         </tr>
-        <tr>
+        <tr id="tablesthreeble">
           <td>Alina</td>
           <td>Jitpraphai</td>
         </tr>
-        <tr>
+        <tr id="tablesfourble">
           <td>Carolyn</td>
           <td>Cui</td>
         </tr>
@@ -209,14 +218,16 @@
     
       <h1 id="blocks">Blocks</h1>
       <p>Block elements start on new lines and take up the full width available. Though there are many block-level elements (<a href="https://www.w3schools.com/html/html_blocks.asp">see here for full list</a>), the grouping tags available are the &lt;div&gt; and &lt;span&gt; tags.<br>These elements can contain HTML elements in order to style or class them. The &lt;div&gt; tag to color a heading and paragraph at the same time with this code:</p>
-      <pre>&lt;div style="color: turquoise; text-align: center; font-family: Courier;"&gt;<br>&lt;h2&gt;Heading&lt;/h2&gt;<br>&lt;p&gt;Paragraph&lt;/p&gt;<br>&lt;/div&gt;</pre>
+      <div id="blocksx">
+        <pre>&lt;div style="color: turquoise; text-align: center; font-family: Courier;"&gt;<br>&lt;h2&gt;Heading&lt;/h2&gt;<br>&lt;p&gt;Paragraph&lt;/p&gt;<br>&lt;/div&gt;</pre>
+      </div>
       <p>Will result with this:</p>
       <div style="color: turquoise; text-align: center; font-family: Courier;">
         <h2>Heading</h2>
         <p>Paragraph</p>
       </div>
       <a href="https://www.w3schools.com/html/html_blocks.asp">W3Schools Page</a>
-    
+  <hr>
     <p style="text-align: center;"><a href="#top" style="text-decoration: none; color: #ff8599;">Back to top</a></p>
     <p class="andpeggy" title="bling bling baby">Made by Alina Jitpraphai</p>
   </body>
