@@ -34,24 +34,23 @@ li a:hover:not(.active) {
     background-color: #ff8599;
 }
 
-#sds {
+#home {
   color: #ff8599;
   font-size: 500%;
   font-family: Courier;
+  text-align: center;
 }
 
 #ycsl {
   font-size: 200%;
+  text-align: center;
 }
 
 #yaas {
   font-family: Courier;
   font-size: 125%;
-}
-
-#cast {
-  background-color: #ff8599;
-  padding: 6px;
   text-align: center;
   color: white;
+  height: 400px;
+  background-image: url("https://lh3.googleusercontent.com/-olAFUWpAS8c/WfJAC3uEXnI/AAAAAAAAEDM/JFBUuLu_oo4EOBn0SlSxpHZ1qfsBSXyZQCK8BGAs/s512/6132171604772803149%253Faccount_id%253D0");
 }
