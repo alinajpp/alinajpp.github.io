@@ -1,0 +1,64 @@
+body {
+  margin:0;
+  font-family: Verdana;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bebebe;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ff8599;
+}
+
+#about {
+  font-size: 500%;
+  font-family: Courier;
+  color: #ff8599;
+}
+
+#creation {
+  font-family: Courier;
+  font-size: 120%;
+}
+
+#follow-us {
+  background-color: #ddd;
+  padding: 12px;
+  font-size: 120%;
+}
+
+#socialmedia {
+  text-decoration: none;
+  color: black;
+  color: #ff8599;
+}
+
+#sponsors {
+  background-color: #ff8599;
+  color: white;
+  padding: 6px;
+}
