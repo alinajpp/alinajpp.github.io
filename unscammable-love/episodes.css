@@ -36,11 +36,34 @@ li a:hover:not(.active) {
 
 #top {
   font-family: Courier;
-  font-size: 400%;
+  font-size: 500%;
   text-align: center;
+  color: #ff8599;
 }
 
-#e1 {
+table, th, td {
+  text-align: left;
+  width: 750px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+}
+
+#season1 {
+  font-size: 400%;
+  text-align: center;
+  background-color: #bebebe;
+  color: black;
+  padding: 6px;
+}
+
+#name1 {
+  font-size: 300%;
+  text-align: center;
+  font-family: Courier;
+}
+
+#e1, #e2, #e3 {
   background-color: #ff8599;
   color: white;
   padding: 6px;
