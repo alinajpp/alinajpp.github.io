@@ -34,9 +34,13 @@
   padding: 6px;
 }
 
-#headingsx, #tablesx, #blocksx, #imgsx, #listsx, #linksx {
+#headingsx, #tablesx, #blocksx, #imgsx, #listsx, #commentsx, #linksx, #paragraphsx {
   background-color: #f2f2f2;
   padding: 6px;
+}
+
+#colorx {
+  color: #199a8d;
 }
 
 table, th, td {
