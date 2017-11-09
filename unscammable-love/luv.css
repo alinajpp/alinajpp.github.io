@@ -36,14 +36,20 @@ li a:hover:not(.active) {
 
 #sds {
   color: #ff8599;
-  font-size: 400%;
+  font-size: 500%;
+  font-family: Courier;
 }
 
 #ycsl {
   font-size: 200%;
 }
 
-#characters {
+#yaas {
+  font-family: Courier;
+  font-size: 125%;
+}
+
+#cast {
   background-color: #ff8599;
   padding: 6px;
   text-align: center;
