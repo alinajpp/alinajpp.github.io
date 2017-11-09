@@ -147,10 +147,15 @@
       <h1 id="paragraphs">Paragraphs</h1>
       <p>Paragraphs are what they are; a plain block of words that a user reads to get into detail. No matter the amount of extreneous spaces and breaks put in a paragraph, the source code will be displayed the same way and those breaks ignored.</p> 
       <p id="break">The only way to make a break in a paragraph is with the &lt;br&gt; tag--the HTML equivalent of the enter bar. Tags used are the &lt;p&gt; tag at the beginning and the &lt;/p&gt; tag at the end. This block of words was created using the paragraph tags.</p>
+      <div id="paragraphsx">
+        <pre>&lt;p&gt;This is a paragraph.&lt;br&gt;This a paragraph.&lt;/p&gt;</pre>
+        <p>This is a paragraph.<br>This is a paragraph.</p>
+      </div>
       <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3Schools Page</a>
     
       <h1 id="comments">Comments</h1>
       <p>Comments are used to place notifications and reminders in HTML without seeing them on the display. The tags used are &lt;!-- at the beginning and --&gt; at the end. There could be comments inserted here and you wouldn't be able to see them.<!--Are there any? Yes there are. ;)--></p>
+      <div id="commentsx"><pre>&lt;p&gt;There could be comments inserted here and you wouldn't be able to see them.<span id="colorx">&lt;--Are there any? Yes there are. ;)--&gt;</span>&lt;/p&gt;</pre></div>
       <a href="https://www.w3schools.com/html/html_comments.asp">W3 Schools Page</a>
     
       <h1 id="links">Links</h1>
@@ -169,11 +174,13 @@
       <h1 id="lists">Lists</h1>
       <p>To make a list, whether with numbers of bullet points, the tags &lt;ul&gt; (unordered list) and &lt;ol&gt; (ordered list) can be used. The tags &lt;li&gt; are used to define each item in the list.</p>
       <div id="listsx">
+        <pre>&lt;ul&gt;<br>&lt;li&gt;This is&lt;/li&gt;;<br>&lt;li&gt;an unordered&lt;/li&gt;<br>&lt;li&gt;list&lt;/li&gt;<br>&lt;/ul&gt;</pre>
         <ul>
           <li>This is</li>
           <li>an unordered</li>
           <li>list</li>
         </ul>
+        <pre>&lt;ol&gt;<br>&lt;li&gt;This is&lt;/li&gt;;<br>&lt;li&gt;an ordered&lt;/li&gt;<br>&lt;li&gt;list&lt;/li&gt;<br>&lt;/ol&gt;</pre>
         <ol>
           <li>This is</li>
           <li>an ordered</li>
@@ -186,17 +193,7 @@
       <h1 id="tables">Tables</h1>
       <p>An HTML table is defined with the &lt;table&gt; tag. Each row is defined with &lt;tr&gt; and a header is defined with &lt;th&gt;. The data in each row is preceeded with &lt;td&gt;.<br>With the code:<br></p>
       <div id="tablesx">
-        <pre>&lt;table&gt;<br>
-        &lt;tr&gt;<br>
-        &lt;th&gt;First Name&lt;/th&gt;<br>
-        &lt;th&gt;Second Name&lt;/th&gt;<br>
-        &lt;/tr&gt;<br>
-        &lt;tr&gt;<br>
-        &lt;td&gt;Alina&lt;/td&gt;<br>
-        &lt;td&gt;Jitpraphai&lt;/td&gt;<br>
-        &lt;/tr&gt;
-        &lt;td&gt;Carolyn&lt;/td&gt;<br>
-        &lt;td&gt;Cui&lt;/td&gt;<br></pre>
+        <pre>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;th&gt;First Name&lt;/th&gt;<br>&lt;th&gt;Second Name&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;tr&gt;<br>&lt;td&gt;Alina&lt;/td&gt;<br>&lt;td&gt;Jitpraphai&lt;/td&gt;<br>&lt;/tr&gt;&lt;td&gt;Carolyn&lt;/td&gt;<br>&lt;td&gt;Cui&lt;/td&gt;<br></pre>
       </div>
       <p>The following table will be created:
       </p>
@@ -223,7 +220,7 @@
         <pre>&lt;div style="color: turquoise; text-align: center; font-family: Courier;"&gt;<br>&lt;h2&gt;Heading&lt;/h2&gt;<br>&lt;p&gt;Paragraph&lt;/p&gt;<br>&lt;/div&gt;</pre>
       </div>
       <p>Will result with this:</p>
-      <div style="color: turquoise; text-align: center; font-family: Courier;">
+      <div style="color: turquoise; text-align: center; font-family: Courier;" id="blocksx">
         <h2>Heading</h2>
         <p>Paragraph</p>
       </div>
