@@ -1,0 +1,48 @@
+body {
+  margin:0;
+  font-family: Verdana;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bebebe;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ff8599;
+}
+
+#mathsqua {
+  font-family: Courier;
+  font-size: 500%;
+  text-align: center;
+  color: #ff8599;
+}
+
+#alina, #nathan, #sean {
+  background-color: #ff8599;
+  color: white;
+  padding: 6px;
+}
