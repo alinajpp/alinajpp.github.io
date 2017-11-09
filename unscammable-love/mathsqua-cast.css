@@ -40,3 +40,25 @@ li a:hover:not(.active) {
   text-align: center;
   color: #ff8599;
 }
+
+.navtable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.navtable td, .navtable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.navtable tr:nth-child(even){background-color: #f2f2f2;}
+
+.navtable tr:hover {background-color: #ddd;}
+
+.navtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ff8599;
+    color: white;
+}
