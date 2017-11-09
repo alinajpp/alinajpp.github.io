@@ -1,70 +1,59 @@
-body {
-  margin:0;
-  font-family: Verdana;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Episodes</title>
+    <link href="episodes.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <ul>
+      <li><a href="/unscammable-love/hashtag-mathsqua.html">Home</a></li>
+      <li><a href="/unscammable-love/mathsqua-cast.html">Cast</a></li>
+      <li><a class="active" href="#episodes">Episodes</a></li>
+      <li><a href="/unscammable-love/about-mathsqua.html">About</a></li>
+      <li><a href="/unscammable-love/the-squad.html">#mathsqua</a></li>
+    </ul>
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #bebebe;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #ff8599;
-}
-
-#top {
-  font-family: Courier;
-  font-size: 500%;
-  text-align: center;
-  color: #ff8599;
-}
-
-table, th, td {
-  text-align: left;
-  width: 750px;
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 3px;
-}
-
-#season1 {
-  font-size: 400%;
-  text-align: center;
-  background-color: #ddd;
-  color: black;
-  padding: 6px;
-}
-
-#name1 {
-  font-size: 300%;
-  text-align: center;
-  font-family: Courier;
-}
-
-#e1, #e2, #e3, #e4, #e5 {
-  background-color: #ff8599;
-  color: white;
-  padding: 6px;
-}
+<div style="padding:20px;margin-top:30px;background-color:white;height:1500px;">
+  <h1 id="top">Episodes</h1>
+  <table class="navtable">
+    <tr>
+      <th>Season</th>
+      <th>Episodes</th>
+    </tr>
+    <tr>
+      <td rowspan="5"><a href="#season1">Season 1: Chicago</a></td>
+      <td><a href="#e1">Episode 1: Pilot</a></td>
+    </tr>
+    <tr>
+      <td><a href="#e2">Episode 2: Love Montage</a></td>
+    </tr>
+    <tr>
+      <td><a href="#e3">Episode 3: Bermurder Trianguey</a></td>
+    </tr>
+    <tr>
+      <td><a href="#e4">Episode 4: Lost in the Tongue-dra</a></td>
+    </tr>
+    <tr>
+      <td><a href="#e5">Episode 5: My Name is Jeff</a></td>
+    </tr>
+  </table>
+  
+  <h1 id="season1">Season 1</h1>
+  <h1 id="name1">Chicago</h1>
+    <h1 id="e1">Episode 1: Pilot</h1>
+      <p>I would have a full summary here</p>
+    <h1 id="e2">Episode 2: Love Montage</h1>
+      <p>but i don't know what to put</p>
+    <h1 id="e3">Episode 3: Bermurder Trianguey</h1>
+      <p>this is a really good pun ok</p>
+    <h1 id="e4">Episode 4: Lost in the Tongue-dra</h1>
+      <p>Turning cold shoulders, despite the lack of shoulders and/or arms in some emoji keychains</p>
+    <h1 id="e5">Episode 5: My Name is Jeff</h1>
+      <p>We introduce Jeff. (Which one? you ask. Answer: all of them)</p>
+      <p style="text-align: center;"><img src="https://media.mnn.com/assets/images/2016/02/monkfish.jpg.696x0_q80_crop-smart.jpg"></p>
+    
+</div>
+  </body>
+</html>
