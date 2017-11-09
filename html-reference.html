@@ -100,7 +100,9 @@
         <td><a href="#lists" style="text-decoration: none; color: black; font-weight: bold">Lists</a></td>
         <td>&lt;ul&gt;<br>&lt;li&gt;</td>
         <td>  &lt;/li&gt;<br>&lt;/ul&gt;<br></td>
-        <td><pre>&lt;ul&gt;<br>&lt;li&gt;First item&lt;/li&gt;<br>&lt;li&gt;Second item&lt;/li&gt;<br>&lt;/ul&gt;</pre></td>
+        <td><pre>&lt;ul&gt;<br>
+        &lt;li&gt;First item&lt;/li&gt;<br>
+        &lt;li&gt;Second item&lt;/li&gt;<br>&lt;/ul&gt;</pre></td>
         <td></ul>
           <li>First item</li>
           <li>Second item</li>
@@ -111,17 +113,31 @@
         <td><a href="#tables" style="text-decoration: none; color: black; font-weight: bold">Tables</a></td>
         <td>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;th&gt;<br>&lt;td&gt;</td>
         <td>&lt;/table&gt;<br>&lt;/tr&gt;<br>&lt;/th&gt;<br>&lt;/td&gt;</td>
-        <td><pre>&lt;table&gt;
-        <br>&lt;tr&gt;
-        <br>&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Start Tag&lt;/th&gt;
-        <br>&lt;td&gt;Headings&lt;/td&gt;&lt;td&gt;&lt;h1&gt;&lt;/td&gt;</pre></td>
-        <td>Look at this table.</td>
+        <td><pre>&lt;table&gt;<br>&lt;tr&gt;
+        <br>&lt;th&gt;Name&lt;/th&gt;<br>
+        &lt;th&gt;Start Tag&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;tr&gt;<br>
+        &lt;td&gt;Headings&lt;/td&gt;<br>
+        &lt;td&gt;&amp;lt;h1&amp;gt;&lt;/td&gt;<br>&lt;/tr&gt;</pre></td>
+        <td>
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Start Tag</th>
+            </tr>
+            <tr>
+              <td>Headings</td>
+              <td>&lt;h1&gt;</td>
+            </tr>
+          </table>
+        </td>
       </tr>
       <tr>
         <td><a href="#blocks" style="text-decoration: none; color: black; font-weight: bold">Blocks</a></td>
         <td>&lt;div&gt;</td>
         <td>&lt;/div&gt;</td>
-        <td><pre>&lt;div style="color:turquoise"&gt;<br>&lt;h1&gt;This is a heading&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph&lt;/p&gt;<br>&lt;/div&gt;</pre></td>
+        <td><pre>&lt;div style="color:turquoise"&gt;<br>
+        &lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+        &lt;p&gt;This is a paragraph&lt;/p&gt;<br>&lt;/div&gt;</pre></td>
         <td><div style="color: turquoise">
           <h1>This is a heading</h1>
           <p>This is a paragraph</p>
@@ -174,13 +190,19 @@
       <h1 id="lists">Lists</h1>
       <p>To make a list, whether with numbers of bullet points, the tags &lt;ul&gt; (unordered list) and &lt;ol&gt; (ordered list) can be used. The tags &lt;li&gt; are used to define each item in the list.</p>
       <div id="listsx">
-        <pre>&lt;ul&gt;<br>&lt;li&gt;This is&lt;/li&gt;;<br>&lt;li&gt;an unordered&lt;/li&gt;<br>&lt;li&gt;list&lt;/li&gt;<br>&lt;/ul&gt;</pre>
+        <pre>&lt;ul&gt;<br>
+        &lt;li&gt;This is&lt;/li&gt;;<br>
+        &lt;li&gt;an unordered&lt;/li&gt;<br>
+        &lt;li&gt;list&lt;/li&gt;<br>&lt;/ul&gt;</pre>
         <ul>
           <li>This is</li>
           <li>an unordered</li>
           <li>list</li>
         </ul>
-        <pre>&lt;ol&gt;<br>&lt;li&gt;This is&lt;/li&gt;;<br>&lt;li&gt;an ordered&lt;/li&gt;<br>&lt;li&gt;list&lt;/li&gt;<br>&lt;/ol&gt;</pre>
+        <pre>&lt;ol&gt;<br>
+        &lt;li&gt;This is&lt;/li&gt;;<br>
+        &lt;li&gt;an ordered&lt;/li&gt;<br>
+        &lt;li&gt;list&lt;/li&gt;<br>&lt;/ol&gt;</pre>
         <ol>
           <li>This is</li>
           <li>an ordered</li>
@@ -193,7 +215,15 @@
       <h1 id="tables">Tables</h1>
       <p>An HTML table is defined with the &lt;table&gt; tag. Each row is defined with &lt;tr&gt; and a header is defined with &lt;th&gt;. The data in each row is preceeded with &lt;td&gt;.<br>With the code:<br></p>
       <div id="tablesx">
-        <pre>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;th&gt;First Name&lt;/th&gt;<br>&lt;th&gt;Last Name&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;tr&gt;<br>&lt;td&gt;Alina&lt;/td&gt;<br>&lt;td&gt;Jitpraphai&lt;/td&gt;<br>&lt;/tr&gt;&lt;td&gt;Carolyn&lt;/td&gt;<br>&lt;td&gt;Cui&lt;/td&gt;<br></pre>
+        <pre>&lt;table&gt;<br>&lt;tr&gt;<br>
+        &lt;th&gt;First Name&lt;/th&gt;<br>
+        &lt;th&gt;Last Name&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;tr&gt;<br>
+        &lt;td&gt;Alina&lt;/td&gt;<br>
+        &lt;td&gt;Jitpraphai&lt;/td&gt;<br>&lt;/tr&gt;<br>
+        &lt;td&gt;Carolyn&lt;/td&gt;<br>
+        &lt;td&gt;Cui&lt;/td&gt;<br>&lt;tr&gt;<br>
+        &lt;td&gt;Bbob&lt;/td&gt;<br>
+        &lt;td&gt;Roberts&lt;/td&gt;<br>&lt;/tr&gt;</pre>
       </div>
       <p>The following table will be created:
       </p>
@@ -211,6 +241,10 @@
             <td>Carolyn</td>
             <td>Cui</td>
           </tr>
+          <tr>
+            <td>Bbob</td>
+            <td>Roberts</td>
+          </tr>
         </table>
       </div>
       <p>To see a better defined table, look at the top of this page.</p>
@@ -219,7 +253,9 @@
       <h1 id="blocks">Blocks</h1>
       <p>Block elements start on new lines and take up the full width available. Though there are many block-level elements (<a href="https://www.w3schools.com/html/html_blocks.asp">see here for full list</a>), the grouping tags available are the &lt;div&gt; and &lt;span&gt; tags.<br>These elements can contain HTML elements in order to style or class them. The &lt;div&gt; tag to color a heading and paragraph at the same time with this code:</p>
       <div id="blocksx">
-        <pre>&lt;div style="color: turquoise; text-align: center; font-family: Courier;"&gt;<br>&lt;h2&gt;Heading&lt;/h2&gt;<br>&lt;p&gt;Paragraph&lt;/p&gt;<br>&lt;/div&gt;</pre>
+        <pre>&lt;div style="color: turquoise; text-align: center; font-family: Courier;"&gt;<br>
+        &lt;h2&gt;Heading&lt;/h2&gt;<br>
+        &lt;p&gt;Paragraph&lt;/p&gt;<br>&lt;/div&gt;</pre>
       </div>
       <p>Will result with this:</p>
       <div style="color: turquoise; text-align: center; font-family: Courier;" id="blocksx">
