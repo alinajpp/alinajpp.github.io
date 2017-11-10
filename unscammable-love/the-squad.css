@@ -73,3 +73,9 @@ li a:hover:not(.active) {
   color: white;
   padding: 6px;
 }
+
+#flow {
+  width: 100%;
+  height: 600px;
+  overflow: scroll;
+}
