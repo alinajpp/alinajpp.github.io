@@ -1,24 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
-  margin:0;
-  font-family: Verdana;
+  font-family: Georgia;
+  background-color: white;
+  <!-- background-image: url("https://s-media-cache-ak0.pinimg.com/originals/8e/02/75/8e0275c328d48a51bafee5af09cdc470.gif"); -->
+  margin: 0;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.header {
+  text-align: center;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/8e/02/75/8e0275c328d48a51bafee5af09cdc470.gif");
+  padding: 20px;
+  height: 240px;
+  color: white;
+}
+
+#fashion {
+  font-size: 75px;
+}
+
+/* Style the top navigation bar */
+.topnav {
     overflow: hidden;
-    background-color: #bebebe;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    background-color: black;
 }
 
-li {
+/* Style the topnav links */
+.topnav a {
     float: left;
-}
-
-li a {
     display: block;
     color: white;
     text-align: center;
@@ -26,24 +38,22 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: white;
+    color: black;
 }
 
+/* indicate active page on nav */
 .active {
-    background-color: #ff8599;
+    background-color: #f7cac9;
 }
 
-#cast {
-  font-size: 500%;
-  font-family: Courier;
-  text-align: center;
-  color: #ff8599;
-}
 
 .navtable {
   border-collapse: collapse;
   width: 100%;
+  margin: 20px;
 }
 
 .navtable td, .navtable th {
@@ -59,6 +69,23 @@ li a:hover:not(.active) {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #ff8599;
+    background-color: #efc050;
     color: white;
+}
+
+/* Style the footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #ff4d94;
+    color: black;
+}
+
+.content {
+  background-color: white;
+}
+
+
+img {
+  width:100%;
 }
