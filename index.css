@@ -1,0 +1,37 @@
+body {
+  font-family: Georgia;
+}
+
+.header {
+  background-image: url(http://www.lovethispic.com/uploaded_images/17154-Flowers-Blowing-In-The-Wind.gif?1);
+  height: 270px;
+  color: white;
+  text-align: center;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #f7cac9;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
