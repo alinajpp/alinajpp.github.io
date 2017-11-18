@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia;
+  background-color: white;
+  <!-- background-image: url("https://78.media.tumblr.com/f59726a0e50d6d4306ff7846425dd436/tumblr_o4xbihcoWO1ro4v2no1_500.gif"); -->
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  background-image: url("https://78.media.tumblr.com/f59726a0e50d6d4306ff7846425dd436/tumblr_o4xbihcoWO1ro4v2no1_500.gif");
+  padding: none;
+  height: 270px;
+  font-family: Georgia;
+}
+
+#fashion {
+  font-size: 75px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+/* indicate active page on nav */
+.active {
+    background-color: #dd4132;
+}
+
+/* A - Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 24px;
+}
+
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+    font-family: Georgia;
+}
+
+/* Middle column */
+.column.middle {
+    width: 40%;
+}
+
+.column-over-there {
+  width: 35%;
+  overflow: scroll;
+  height: 400px;
+  
+}
+
+#ihmygod {
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#linx {
+  text-decoration: none;
+  color: black;
+}
+
+#picta {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle, .column-over-there {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #dd4132;
+    color: white;
+}
+
+.content {
+  background-color: white;
+}
+
+
+img {
+  width:100%;
+}
