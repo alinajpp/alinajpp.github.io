@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia;
+  background-color: white;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  background-image: url("https://78.media.tumblr.com/f59726a0e50d6d4306ff7846425dd436/tumblr_o4xbihcoWO1ro4v2no1_500.gif");
+  padding: 20px;
+  height: 270px;
+  color: white;
+}
+
+#stylez {
+  font-size: 75px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Georgia;
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+/* indicate active page on nav */
+.active {
+    background-color: #f7cac9;
+    color: black;
+}
+
+/* A - Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 24px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 40%;
+    background-color: #f7cac9;
+    font-family: Georgia;
+}
+
+#definition {
+  font-family: Courier;
+}
+
+#exes {
+  color: #92a8d1;
+}
+
+#ihmygod {
+  width: 100%;
+}
+
+#vid {
+  width: 100%;
+  height: 250px;
+}
+
+/* Middle column */
+.column.middle {
+    width: 60%;
+    font-family: Georgia;
+}
+
+#update {
+  color: #dd4132;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f7786b;
+    color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle, .column-over-there {
+        width: 100%;
+
+    }
+    .header {
+      height: 320px;
+    }
+}
+
+/* Style the footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #dd4132;
+    color: white;
+}
+
+
+.content {
+  background-color: white;
+}
+
+.content p {
+  font-family: Georgia;
+  color:black;
+}
+
+img {
+  width:100%;
+}
