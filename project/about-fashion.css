@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia;
+  background-color: white;
+  <!-- background-image: url("https://cdn.dribbble.com/users/31818/screenshots/2309065/dribbb.gif"); -->
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  background-image: url("https://78.media.tumblr.com/f59726a0e50d6d4306ff7846425dd436/tumblr_o4xbihcoWO1ro4v2no1_500.gif");
+  padding: 20px;
+  height: 270px;
+  color: white;
+}
+
+#fashion {
+  font-size: 75px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+/* indicate active page on nav */
+.active {
+    background-color: #88b04b;
+}
+
+/* A - Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 24px;
+}
+
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+    font-family: Georgia;
+    background-color: #88b04b;
+    color: white;
+    height: 575px;
+}
+
+/* Middle column */
+.column.middle {
+    width: 40%;
+}
+
+#heading-middle {
+  color: #f7786b;
+}
+
+.column.right {
+  width: 35%;
+  background-color: #dd4132;
+  color: white;
+}
+
+#ihmygod {
+  width: 100%;
+  overflow: scroll;
+  height: 410px;
+}
+
+#linx {
+  text-decoration: none;
+  color: white;
+}
+
+#linx:hover {
+  color: black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle, .column.right {
+        width: 100%;
+
+    }
+    .header {
+      height: 320px;
+    }
+}
+
+/* Style the footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #f7786b;
+    color: white;
+}
+
+.content {
+  background-color: white;
+}
+
+
+img {
+  width:100%;
+}
