@@ -109,6 +109,11 @@ body {
     color: white;
 }
 
+#msm a {
+  color: white;
+  text-decoration: none;
+}
+
 .content {
   background-color: white;
 }
