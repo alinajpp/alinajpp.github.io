@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+</style>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="mathsqua-social-media.html" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Hashtag Mathsqua</a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
+  <a href="facebook-messages.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button">One new friend request</a>
+      <a href="#alina" class="w3-bar-item w3-button">Alina Jitpraphai posted on your wall</a>
+      <a href="#" class="w3-bar-item w3-button">The Chicago Mafia liked your post</a>
+    </div>
+  </div>
+  <a href="mathsqua-social-media.html" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account"><img src="http://3.bp.blogspot.com/-mHpofMaTtqw/UwTZPZGqFJI/AAAAAAAANPc/1RobMBBVxw4/s1600/Ultraman_Fashion_003.jpg" class="w3-circle" style="height:25px;width:25px" alt="Avatar"></a>
+ </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">Alina Jitpraphai</h4>
+         <p class="w3-center"><img src="https://lh3.googleusercontent.com/-VYHtiupSOTE/Wg_URgPSmzI/AAAAAAAAFlQ/P8UMnjpFiBwn8JjyNvuVkYBLsYqY9A7JACK8BGAs/s512/2017-11-17.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+         <hr>
+         <p><i class="fa fa-user fa-fw w3-margin-right w3-text-theme"></i>Sean's Drama Show</p>
+         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> Chandler, AZ</p>
+         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> August 20</p>
+         <p><i class="fa fa-heart fa-fw w3-margin-right w3-text-theme"></i> Periods sure are eggcellent</p>
+         <p><i class="fa fa-link fa-fw w3-margin-right w3-text-theme"></i> <a href="https://www.instagram.com/alinajpp/"> instagram.com/alinajpp/</a></p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Accordion -->
+      <div class="w3-card w3-round">
+        <div class="w3-white">
+          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> Alina's Groups</button>
+          <div id="Demo1" class="w3-hide w3-container">
+            <p>#mathsqua, Cult of the Origami Bunnies, ECS</p>
+          </div>
+          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> Alina's Events</button>
+          <div id="Demo2" class="w3-hide w3-container">
+            <p>Sean's Drama Show Season 2 released</p>
+            <p>Thanksgiving (feat. Turdey the Turkey)</p>
+          </div>
+          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> Alina's Friends</button>
+          <div id="Demo3" class="w3-hide w3-container">
+            <p><img src="http://3.bp.blogspot.com/-mHpofMaTtqw/UwTZPZGqFJI/AAAAAAAANPc/1RobMBBVxw4/s1600/Ultraman_Fashion_003.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:30px;height:30px;"><a style="text-decoration:none;" href="mathsqua-social-media.html">Hashtag Mathsqua</a></p>
+            <p><img src="https://lh3.googleusercontent.com/-dDwKd-bop68/WgPchguvvSI/AAAAAAAAEwI/pBuwaiycmsclCBlmdR4IYGNN7Qnc6ww7QCK8BGAs/s512/2017-11-08.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:30px;height:30px;">Murderer</p>
+            <p><img src="https://lh3.googleusercontent.com/-8SlMbTVQt4E/WgIOJKVyiaI/AAAAAAAAEH0/rqlnqEg8zf0KAfIw-6JSCoXTrbs3zTvswCK8BGAs/s512/4336871687793873678%253Faccount_id%253D0" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:30px;height:30px;">Tonguey</p>
+            <p><img src="http://americanmafiahistory.com/wp-content/uploads/2012/10/Al-Capone.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:30px;height:30px;">Jeff Springer</p>
+            <p><img src="https://commdiginews-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/chicago-mob-capone-435x375.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:30px;height:30px;">The Chicago Mafia</p>
+            <p><img src="https://lh3.googleusercontent.com/-111tQmcDFjM/WhSFOLWFjpI/AAAAAAAAFtA/65FwMuiW5HI0iSP7__gBezZj5yLnvM5vQCK8BGAs/s248/2017-11-21.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:30px;height:30px;">Nathan Neff</p>
+            <p><img src="https://lh3.googleusercontent.com/-JZDRQsTQVt8/WhSF0VAsjwI/AAAAAAAAFtM/ehYY-wtkOc4uV5mANdK8nK2LNL8alpR2wCK8BGAs/s285/2017-11-21.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:30px;height:30px;">Sean Cooney</p>
+            <p><img src="https://www.nutella.com/nutella-gl-theme/images/custom/Nutella.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:30px;height:30px;"><a style="text-decoration: none;" href="nutella-official-facebook.html">Nutella Official</a></p>
+            <p><img src="https://upload.wikimedia.org/wikipedia/en/5/53/Beyonce_-_Lemonade_%28Official_Album_Cover%29.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:30px;height:30px;">Beyoncé</p>
+            <p><img src="https://lh3.googleusercontent.com/-BHPgkxvt2rg/WhSRANFou0I/AAAAAAAAFts/2P0kBotGQZwWCplbnc8AokCcJTh3metBQCK8BGAs/s512/2017-11-21.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:30px;height:30px;"><a style="text-decoration: none;" href="carolyn-cui-facebook.html">Carolyn Cui</a></p>
+          </div>
+          <button onclick="myFunction('Demo4')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-camera fa-fw w3-margin-right"></i> Alina's Photos</button>
+          <div id="Demo4" class="w3-hide w3-container">
+         <div class="w3-row-padding">
+         <br>
+           <div class="w3-half">
+             <img src="https://lh3.googleusercontent.com/-nT829R2hcJE/Wf9YvcECEmI/AAAAAAAAEco/33vQuiGONN8jHY2X1ggm1PijArDZSZnsACK8BGAs/s512/2017-11-05.png" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="https://lh3.googleusercontent.com/-MXHOD5BnIAQ/Wg_SCi-8SGI/AAAAAAAAFlA/J1jZs0l1xQkAnNmO-j7Z9w9vuzCHH6wHACK8BGAs/s512/2017-11-17.png" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="https://alinajpp.github.io/images/Artsy%20pigs.png" style="width:100%" class="w3-margin-bottom">
+           </div>
+         </div>
+          </div>
+        </div>      
+      </div>
+      <br>
+      
+      <!-- Interests --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>Interests</p>
+          <p>
+            <span class="w3-tag w3-small w3-theme-d5">#mathsqua</span>
+            <span class="w3-tag w3-small w3-theme-d4">The Chicago Mafia</span>
+            <span class="w3-tag w3-small w3-theme-d3">Jeff "Tax Reduction" Springer</span>
+            <span class="w3-tag w3-small w3-theme-d3">The Bermurder Trianguey</span>
+            <span class="w3-tag w3-small w3-theme-d2">Bed Bath & Beyonce</span>
+            <span class="w3-tag w3-small w3-theme-d1">Fasean</span>
+            <span class="w3-tag w3-small w3-theme">Origami Bunnies</span>
+            <span class="w3-tag w3-small w3-theme-l1">Samsung S5</span>
+            <span class="w3-tag w3-small w3-theme-l2">Monkfish</span>
+            <span class="w3-tag w3-small w3-theme-l3">Tonguey</span>
+            <span class="w3-tag w3-small w3-theme-l4">Murderer</span>
+            <span class="w3-tag w3-small w3-theme-l5">Jeff</span>
+          </p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Alert Box -->
+      <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+          <i class="fa fa-remove"></i>
+        </span>
+        <p><strong>Hey!</strong></p>
+        <p>See which friends you have in common with Alina Jitpraphai.<p>
+      </div>
+    
+    <!-- End Left Column -->
+    </div>
+    
+    <!-- Middle Column -->
+    <div class="w3-col m7">
+    
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding"><br>
+              <img src="http://3.bp.blogspot.com/-mHpofMaTtqw/UwTZPZGqFJI/AAAAAAAANPc/1RobMBBVxw4/s1600/Ultraman_Fashion_003.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+              <h4 id="alina">Hashtag Mathsqua</h4><br>
+              <hr class="w3-clear">
+              <h6 class="w3-opacity">Social Media template by w3.css</h6>
+              <p contenteditable="true" class="w3-border w3-padding">@Alina Jitpraphai</p>
+              <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Post</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="https://lh3.googleusercontent.com/-VYHtiupSOTE/Wg_URgPSmzI/AAAAAAAAFlQ/P8UMnjpFiBwn8JjyNvuVkYBLsYqY9A7JACK8BGAs/s512/2017-11-17.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">42 min</span>
+        <h4 id="alina"><a style="text-decoration:none;" href="alina-jpp-facebook.html">Alina Jitpraphai</a></h4><br>
+        <hr class="w3-clear">
+        <h3>Hey y'all</h3>
+        <p>So...I kinda stole this template from online (sorry. Credits to w3schools). Idk what this is supposed to be but it could be some kinda Sean's Drama Show social media? Like the toned down facebook? *shrug* Anyways have fun with it.</p>
+        <img src="https://lh3.googleusercontent.com/-nT829R2hcJE/Wf9YvcECEmI/AAAAAAAAEco/33vQuiGONN8jHY2X1ggm1PijArDZSZnsACK8BGAs/s512/2017-11-05.png" style="width:100%" alt="mathsqua" class="w3-margin-bottom">
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+      </div> 
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="https://lh3.googleusercontent.com/-VYHtiupSOTE/Wg_URgPSmzI/AAAAAAAAFlQ/P8UMnjpFiBwn8JjyNvuVkYBLsYqY9A7JACK8BGAs/s512/2017-11-17.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">5 hr</span>
+        <h4 id="alina"><a style="text-decoration:none;" href="alina-jpp-facebook.html">Alina Jitpraphai</a></h4><br>
+        <hr class="w3-clear">
+        <p><a href="https://alinajpp.github.io/unscammable-love/hashtag-mathsqua.html">#mathsqua website here</a></p>
+        <p>Will be updated very soon, because right now it looks a lot like the year 2010.</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+      </div> 
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="https://lh3.googleusercontent.com/-VYHtiupSOTE/Wg_URgPSmzI/AAAAAAAAFlQ/P8UMnjpFiBwn8JjyNvuVkYBLsYqY9A7JACK8BGAs/s512/2017-11-17.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">1 day</span>
+        <h4 id="alina"><a style="text-decoration:none;" href="alina-jpp-facebook.html">Alina Jitpraphai</a></h4><br>
+        <hr class="w3-clear">
+        <h3>Bada bing, bada boom</h3>
+        <p><strong>A term commonly used by members of the Mafia. </strong>Slang for, "it's finished; taken care of." Often it is heard in the metropolitan areas of New York, specifically Brooklyn.</p>
+        <p>Me: says "bada bing bada boom" way more times than necessary</p>
+        <h5>Conclusion: I am part of the Chicago Mafia</h5>
+        <p>Hire me already, Jeff.</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment (1)</button> 
+        <hr class="w3-clear">
+        <div class="w3-col l2 m3">
+                <p><img src="http://americanmafiahistory.com/wp-content/uploads/2012/10/Al-Capone.jpg" class="w3-circle" style="height:60px;width:60px;" alt="Avatar"></p>
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jeff Springer <span class="w3-opacity w3-medium">1 day</span></h4>
+                <p>*backs away slowly*</p><br>
+              </div>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="https://lh3.googleusercontent.com/-VYHtiupSOTE/Wg_URgPSmzI/AAAAAAAAFlQ/P8UMnjpFiBwn8JjyNvuVkYBLsYqY9A7JACK8BGAs/s512/2017-11-17.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">2 days</span>
+        <h4 id="alina"><a style="text-decoration:none;" href="alina-jpp-facebook.html">Alina Jitpraphai</a></h4><br>
+        <hr class="w3-clear">
+        <h3>#</h3>
+        <p>"The # symbol is commonly called the pound sign, number sign, and yes, more recently: the hashtag (but that's not all). It's called the pound sign because the symbol comes from the abbreviation for weight, lb, or “libra pondo” literally “pound by weight” in Latin." <a href="https://www.urbandictionary.com/define.php?term=bada%20bing%2C%20bada%20boom">Source</a></p>
+        <p>"[However, s]tories abound about who first called the # sign an "octothorpe" (which can also be spelled "octothorp"). Most of those tales link the name to various telephone workers in the 1960s, and all claim the "octo-" part refers to the eight points on the symbol, but the "thorpe" remains a mystery. One story links it to a telephone company employee who happened to burp while talking about the symbol with co-workers. Another relates it to the athlete Jim Thorpe, and a third claims it derives from an Old English word for "village." If the plethora of theories leaves your head spinning, you might want to take the advice of the wag who asked (poetically), 'Can we simply just say, / Ere it spoils your day, / It's the thorp between seven and nine?'" <a href="https://www.merriam-webster.com/dictionary/octothorpe">Source</a></p>
+        <h5>Conclusion: octothorpe mathsqua</h5>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment (2)</button> 
+        <hr class="w3-clear">
+        <div class="w3-col l2 m3">
+                <p><img src="https://lh3.googleusercontent.com/-BHPgkxvt2rg/WhSRANFou0I/AAAAAAAAFts/2P0kBotGQZwWCplbnc8AokCcJTh3metBQCK8BGAs/s512/2017-11-21.png" class="w3-circle" style="height:60px;width:60px;" alt="Avatar"></p>
+              </div>
+              <div class="w3-col l10 m9">
+                <h4><a style="text-decoration: none;" href="carolyn-cui-facebook.html">Carolyn Cui</a> <span class="w3-opacity w3-medium">2 days</span></h4>
+                <p>oml alina why</p><br>
+              </div>
+        <div class="w3-col l2 m3">
+                <p><img src="https://www.nutella.com/nutella-gl-theme/images/custom/Nutella.png" class="w3-circle" style="height:60px;width:60px;" alt="Avatar"></p>
+              </div>
+              <div class="w3-col l10 m9">
+                <h4><a style="text-decoration: none;" href="nutella-official-facebook.html">Nutella Official</a> <span class="w3-opacity w3-medium">2 days</span></h4>
+                <p>octothorpe facedesk</p><br>
+              </div>
+      </div> 
+      
+    <!-- End Middle Column -->
+    </div>
+    
+    <!-- Right Column -->
+    <div class="w3-col m2">
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Upcoming Events:</p>
+          <img src="https://lh3.googleusercontent.com/-olAFUWpAS8c/WfJAC3uEXnI/AAAAAAAAEDM/JFBUuLu_oo4EOBn0SlSxpHZ1qfsBSXyZQCK8BGAs/s512/6132171604772803149%253Faccount_id%253D0" alt="Forest" style="width:100%;">
+          <p><strong>Season 2 of Sean's Drama Show is coming out!</strong></p>
+          <p>Will cover the craziness of fourth period ECS, from the head in the ceiling to the love pentagon. Starring Beyoncé as herself and Tonguey as Tonguey.</p>
+          <p>Friday 8pm</p>
+          <p><button class="w3-button w3-block w3-theme-l4">Info</button></p>
+        </div>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Friend Request</p>
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/53/Beyonce_-_Lemonade_%28Official_Album_Cover%29.png" alt="Avatar" style="width:50%"><br>
+          <span>Beyoncé</span>
+          <div class="w3-row w3-opacity">
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
+            </div>
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-red w3-section" title="Decline"><i class="fa fa-remove"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-padding-16 w3-center">
+        <h4>ADS</h4>
+        <hr>
+        <p style="padding: 5px;">"Definition (feat. Adele)" by Beyoncé is available now on Spotify</p>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-padding-32 w3-center">
+        <p><i class="fa fa-bug w3-xxlarge"></i></p>
+        <p>What is this</p>
+      </div>
+      
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+<!-- End Page Container -->
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-d3 w3-padding-16">
+  <h5>Sponsored by Samsung S5</h5>
+</footer>
+
+<footer class="w3-container w3-theme-d5">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+ 
+<script>
+// Accordion
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-theme-d1";
+    } else { 
+        x.className = x.className.replace("w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace(" w3-theme-d1", "");
+    }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html> 
