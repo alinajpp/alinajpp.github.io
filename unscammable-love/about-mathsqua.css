@@ -3,38 +3,50 @@
 }
 
 body {
-  font-family: Georgia;
-  background-color: white;
-  <!-- background-image: url("https://s-media-cache-ak0.pinimg.com/originals/8e/02/75/8e0275c328d48a51bafee5af09cdc470.gif"); -->
-  margin: 0;
+    margin: 0;
+    font-family: "Segoe UI", Sans-Serif;
 }
 
+/* Style the header */
 .header {
-  text-align: center;
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/8e/02/75/8e0275c328d48a51bafee5af09cdc470.gif");
-  padding: 20px;
-  height: 240px;
-  color: white;
+    padding: 50px;
+    text-align: center;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.5);
 }
 
-#fashion {
-  font-size: 75px;
+.parallax {
+    /* The image used */
+    background-image: url("https://getemoji.com/assets/og/mobile.png");
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+h1 {
+  font-size: 70px;
 }
 
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: black;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 /* Style the topnav links */
 .topnav a {
     float: left;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: black;
 }
 
 /* Change color on hover */
@@ -48,47 +60,38 @@ body {
     background-color: #f7cac9;
 }
 
-/* A - Create three unequal columns that floats next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
     float: left;
     padding: 20px;
 }
 
 
-/* Left and right column */
-.column.side {
-    width: 25%;
-    background-color: #f7cac9;
+.column.middle {
+  width: 75%;
+  text-align: center;
 }
 
 #follow-us {
-  text-align: center;
+  background-color: #ddd;
+  padding: 12px;
+  font-size: 120%;
+  color: black;
 }
 
 #socialmedia {
-  text-align: center;
   text-decoration: none;
-  color: #45b8ac;
+  color: #f7786b;
 }
 
-/* Middle column */
-.column.middle {
-    width: 50%;
+#socialmedia:hover {
+  color: black;
 }
 
-#creation {
-  text-align: center;
-}
-
-.column.right {
+.column.side {
   width: 25%;
-  background-color: #efc050;
   color: white;
-}
-
-#ihmygod {
-  width: 100%;
-  text-align: center;
+  background-color: #efc050;
 }
 
 /* Clear floats after the columns */
@@ -98,29 +101,16 @@ body {
     clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column.side, .column.middle, .column.right {
-        width: 100%;
-    }
-    .header {
-        height: 270px;
-    }
-}
 
 /* Style the footer */
 .footer {
     padding: 10px;
     text-align: center;
-    background-color: #ff4d94;
-    color: white;
 }
 
-.content {
-  background-color: white;
-}
-
-
-img {
-  width:100%;
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
