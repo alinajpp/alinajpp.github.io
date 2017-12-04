@@ -3,38 +3,51 @@
 }
 
 body {
-  font-family: Georgia;
-  background-color: white;
-  <!-- background-image: url("https://s-media-cache-ak0.pinimg.com/originals/8e/02/75/8e0275c328d48a51bafee5af09cdc470.gif"); -->
-  margin: 0;
+    margin: 0;
+    font-family: "Segoe UI", Sans-Serif !important;
 }
 
+/* Style the header */
 .header {
-  text-align: center;
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/8e/02/75/8e0275c328d48a51bafee5af09cdc470.gif");
-  padding: 20px;
-  height: 240px;
-  color: white;
+    padding: 50px;
+    text-align: center;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.5);
 }
 
-#fashion {
-  font-size: 75px;
+.parallax {
+    /* The image used */
+    background-image: url("https://getemoji.com/assets/og/mobile.png");
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
 }
 
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: black;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 /* Style the topnav links */
 .topnav a {
     float: left;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: black;
 }
 
 /* Change color on hover */
@@ -48,69 +61,38 @@ body {
     background-color: #f7cac9;
 }
 
-/* A - Create three unequal columns that floats next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
     float: left;
     padding: 20px;
 }
 
 
-/* Left and right column */
-.column.side {
-    width: 25%;
-    font-family: Georgia;
-    background-color: white;
-    color: white;
-}
-
-#customers {
-    font-family: "Georgia", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    color: black;
-    text-decoration: none;
-}
-
-#customers td, #customers th {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-decoration: none;
-    color: black;
-}
-
-#customers tr:nth-child(even){background-color: #f2f2f2;}
-
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: #f7cac9;
-    color: black;
-}
-
-/* Middle column */
 .column.middle {
-    width: 50%;
-}
-
-#alina, #nathan, #sean {
-  background-color: #ff4d94;
-  color: white;
+  width: 75%;
   text-align: center;
-  padding: 20px;
 }
 
-#ihmygod {
-  overflow: scroll;
-  height: 400px;
-  width: 100%;
+#follow-us {
+  background-color: #ddd;
+  padding: 12px;
+  font-size: 120%;
+  color: black;
 }
 
-.column.right {
+#socialmedia {
+  text-decoration: none;
+  color: #f7786b;
+}
+
+#socialmedia:hover {
+  color: black;
+}
+
+.column.side {
   width: 25%;
-  background-color: #f7cac9;
+  color: white;
+  background-color: #98ddde;
 }
 
 /* Clear floats after the columns */
@@ -120,29 +102,16 @@ body {
     clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column.side, .column.middle, .column.right {
-        width: 100%;
-    }
-    .header {
-        height: 270px;
-    }
-}
 
 /* Style the footer */
 .footer {
     padding: 10px;
     text-align: center;
-    background-color: #efc050;
-    color: white;
 }
 
-.content {
-  background-color: white;
-}
-
-
-img {
-  width:100%;
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
